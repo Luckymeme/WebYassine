@@ -1,0 +1,93 @@
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    background-color: #ccb7b7;
+    align-content: space-around;
+}
+
+#logo {
+    margin: 20px 1680px 20px 20px;
+    border-radius: 25px;
+}
+
+.banner {
+    background-color: #1965d8;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#tlogo {
+    position: absolute;
+    text-align: justify;
+    justify-content: center;
+}
+
+.imagen {
+    background-color: #e26fe6;
+}
+
+.imagen img {
+    width: auto;
+    height: "300px";
+}
+
+a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+ul {
+    flex-direction: row;
+    text-decoration: none;
+}
+
+li {
+    color: #121414;
+    text-align: justify;
+    text-decoration: none;
+}
+
+body {}
+
+#download {
+    padding: 20px 300px;
+}
+
+body iframe {
+    min-height: 480px;
+    min-width: 720px;
+}
+
+.descargar {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+}
+
+.descargar img {
+    margin: 20px;
+}
+
+body h1 {
+    /* position: absolute; */
+}
+
+.ico {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+footer {
+    background-color: #1965d8;
+}
