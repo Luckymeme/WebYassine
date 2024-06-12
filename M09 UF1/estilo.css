@@ -8,7 +8,7 @@ header {
 }
 
 #logo {
-    margin: 20px 1680px 20px 20px;
+    margin: 20px 1500px 20px 20px;
     border-radius: 25px;
 }
 
@@ -21,9 +21,10 @@ header {
 }
 
 #tlogo {
-    position: absolute;
-    text-align: justify;
-    justify-content: center;
+    position: relative;
+    text-align: center;
+    margin-bottom: -70px;
+
 }
 
 .imagen {
@@ -42,8 +43,15 @@ a {
 }
 
 ul {
+    display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     text-decoration: none;
+    align-content: space-around;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 20px;
 }
 
 li {
@@ -51,8 +59,6 @@ li {
     text-align: justify;
     text-decoration: none;
 }
-
-body {}
 
 #download {
     padding: 20px 300px;
@@ -76,8 +82,8 @@ body iframe {
     margin: 20px;
 }
 
-body h1 {
-    /* position: absolute; */
+h1 {
+    text-align: center;
 }
 
 .ico {
@@ -86,6 +92,20 @@ body h1 {
     align-items: center;
     flex-wrap: nowrap;
     flex-direction: row;
+}
+
+.roadmap {
+    display: flex;
+    margin: 0 20px;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+#imgroadmap {
+    margin: 0 20px;
 }
 
 footer {
